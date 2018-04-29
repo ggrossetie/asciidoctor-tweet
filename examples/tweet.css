@@ -1,0 +1,92 @@
+.tweet {
+  display: flex;
+  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+  flex-direction: column;
+  max-width: 25rem;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  color: #4a4a4a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tweet .tweet-author {
+  display: flex;
+}
+
+.tweet .tweet-author-avatar {
+  margin-right: 1rem;
+}
+
+.tweet .tweet-author-names {
+  align-self: center;
+}
+
+.tweet .tweet-author-username {
+  color: #697882;
+}
+
+.tweet .tweet-author-avatar > img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.tweet .tweet-text-container {
+  margin-top: 1rem;
+}
+
+.tweet .tweet-header-container {
+  display: flex;
+}
+
+.tweet .tweet-footer-container {
+  margin-top: 1rem;
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.tweet .twitter-logo {
+  margin-left: auto;
+}
+
+.tweet .twitter-logo > svg {
+  height: 2rem;
+  top: 0.125em;
+  position: relative;
+}
+
+.tweet .tweet-retweet {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.tweet .tweet-favorite {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.tweet .tweet-retweet-image > svg {
+  height: 1rem;
+}
+
+.tweet .tweet-favorite-image > svg {
+  height: 1rem;
+}
+
+.tweet .tweet-retweet-count {
+  color: #697882;
+  display: inline-flex;
+  align-self: center;
+}
+
+.tweet .tweet-favorite-count {
+  color: #697882;
+  display: inline-flex;
+  align-self: center;
+}
+
+.tweet .tweet-date {
+  margin-left: auto;
+}

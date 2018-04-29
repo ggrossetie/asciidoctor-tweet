@@ -17,5 +17,8 @@
     "mocha": "^5.1.1",
     "standard": "^11.0.1",
     "xmlhttprequest": "^1.8.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.1"
   }
 }
