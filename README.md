@@ -1,5 +1,9 @@
 # :bird: Tweet Extension for Asciidoctor.js
 
+![Travis build status](https://img.shields.io/travis/Mogztter/asciidoctor-tweet/master.svg)
+
+An extension for [Asciidoctor.js](https://github.com/asciidoctor/asciidoctor.js) to render tweets.
+
 ## Install
 
     $ npm i asciidoctor-tweet
