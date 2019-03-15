@@ -4,6 +4,9 @@
   "description": "An Asciidoctor.js to add tweets in your document",
   "main": "dist/node/asciidoctor-tweet.js",
   "browser": "dist/browser/asciidoctor-tweet.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "standard",
     "test": "mocha",
