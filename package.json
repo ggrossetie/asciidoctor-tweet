@@ -1,8 +1,9 @@
 {
   "name": "asciidoctor-tweet",
-  "version": "0.1.0",
+  "version": "0.1.0-master",
   "description": "An Asciidoctor.js to add tweets in your document",
-  "main": "index.js",
+  "main": "dist/node/asciidoctor-tweet.js",
+  "browser": "dist/browser/asciidoctor-tweet.js",
   "scripts": {
     "lint": "standard",
     "test": "mocha",
