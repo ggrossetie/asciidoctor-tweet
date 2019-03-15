@@ -13,7 +13,7 @@ cache:
 
 script:
 - npm run lint
-- TWITTER_CONSUMER_KEY= npm test
+- npm test
 - npm run dist
 
 jobs:
