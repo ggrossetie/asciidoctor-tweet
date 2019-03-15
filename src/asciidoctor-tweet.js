@@ -1,7 +1,7 @@
-const twitter = require('./lib/twitter')
+const twitter = require('./twitter')
 const moment = require('moment')
 
-function tweetBlockMacro() {
+function tweetBlockMacro () {
   const self = this
   self.named('tweet')
   self.process(function (parent, target, attrs) {
@@ -54,7 +54,7 @@ function tweetBlockMacro() {
   })
 }
 
-module.exports.register = function register(registry) {
+module.exports.register = function register (registry) {
   if (typeof registry.register === 'function') {
     registry.register(function () {
       this.blockMacro(tweetBlockMacro)

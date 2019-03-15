@@ -1,7 +1,6 @@
-/* global describe it */
 const chai = require('chai')
 const expect = chai.expect
-const asciidoctorTweet = require('../index')
+const asciidoctorTweet = require('../src/asciidoctor-tweet')
 const asciidoctor = require('asciidoctor.js')()
 const cheerio = require('cheerio')
 

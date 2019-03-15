@@ -1,24 +1,39 @@
 {
   "name": "asciidoctor-tweet",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "An Asciidoctor.js to add tweets in your document",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "test": "mocha"
+    "test": "mocha",
+    "clean": "rm -rf dist/*",
+    "dist": "npm run clean && npm run dist:browser && npm run dist:node",
+    "dist:browser": "mkdir -p dist/browser && browserify src/asciidoctor-tweet.js --standalone AsciidoctorTweet -o dist/browser/asciidoctor-tweet.js",
+    "dist:node": "mkdir -p dist/node && cp src/**.js dist/node/"
   },
-  "keywords": [],
+  "keywords": [
+    "asciidoctor",
+    "extension",
+    "twitter",
+    "tweet"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "asciidoctor.js": "^1.5.6",
-    "chai": "^4.1.2",
+    "asciidoctor.js": "^1.5.9",
+    "browserify": "16.2.3",
+    "chai": "4.2.0",
     "cheerio": "^1.0.0-rc.2",
-    "mocha": "^5.1.1",
-    "standard": "^11.0.1"
+    "mocha": "6.0.2",
+    "standard": "11.0.1"
   },
   "dependencies": {
-    "moment": "^2.22.1",
+    "moment": "2.24.0",
     "xmlhttprequest": "^1.8.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   }
 }

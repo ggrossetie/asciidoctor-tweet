@@ -1,6 +1,10 @@
-= Tweet Extension for Asciidoctor.js
+# :bird: Tweet Extension for Asciidoctor.js
 
-== Usage
+## Install
+
+    $ npm i asciidoctor-tweet
+
+## Usage
 
 In your document, use the `tweet` macro with the name of the feature:
 
@@ -18,22 +22,17 @@ const registry = tweetExtension.register(asciidoctor.Extensions.create())
 asciidoctor.convertFile('sample.adoc', {extension_registry: registry})
 ```
 
-[IMPORTANT]
-====
+**IMPORTANT**:
 To authenticate with the Twitter API, you will need to register a Twitter application: https://apps.twitter.com/
 
 Once you have a Twitter application, you will need to pass the consumer key and the consumer secret as environment variables:
 
 * `TWITTER_CONSUMER_KEY`
 * `TWITTER_CONSUMER_SECRET`
-====
 
-== Rendering
 
-image::rendering.jpeg[]
+## Rendering
 
-[NOTE]
-====
-You can use a `docinfo` file to add custom stylesheet.
-See the `examples` directory.
-====
+![](rendering.jpeg)
+
+**NOTE**: You can use a `docinfo` file to add custom stylesheet. See the `examples` directory.
