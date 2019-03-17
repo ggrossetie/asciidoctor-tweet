@@ -1,6 +1,10 @@
 = Show me a tweet!
-:docinfo: shared
 
 Let's go!
 
 tweet::988973671065600000[]
+
+[tweet,Greta Thunberg,@GretaThunberg,16 sept. 2018,avatar-url=https://pbs.twimg.com/profile_images/1103201826449604608/c0t5HuM-_400x400.jpg,retweet-count=11 k,favorite-count=30 k]
+____
+Fridays for future. The school strike continues! #climatestrike #klimatstrejk #FridaysForFuture
+____
