@@ -1,7 +1,7 @@
 {
   "name": "asciidoctor-tweet",
   "version": "0.2.0",
-  "description": "An Asciidoctor.js to add tweets in your document",
+  "description": "Asciidoctor extension to add tweets in your document",
   "main": "dist/node/asciidoctor-tweet.js",
   "browser": "dist/browser/asciidoctor-tweet.js",
   "files": [
@@ -21,14 +21,21 @@
     "twitter",
     "tweet"
   ],
-  "author": "",
+  "author": "Guillaume Grossetie (https://github.com/mogztter)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mogztter/asciidoctor-color/issues"
+  },
+  "homepage": "https://github.com/Mogztter/asciidoctor-color",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
-    "asciidoctor.js": "^1.5.9",
+    "@asciidoctor/core": "^2.0.0",
     "browserify": "16.2.3",
     "chai": "4.2.0",
     "cheerio": "^1.0.0-rc.2",
-    "mocha": "6.0.2",
+    "mocha": "^6.2.2",
     "standard": "11.0.1"
   },
   "dependencies": {

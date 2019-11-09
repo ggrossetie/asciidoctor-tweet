@@ -6,7 +6,7 @@ An extension for [Asciidoctor.js](https://github.com/asciidoctor/asciidoctor.js)
 
 ## Install
 
-    $ npm i asciidoctor.js asciidoctor-tweet
+    $ npm i @asciidoctor/core asciidoctor-tweet
 
 ## Usage
 
@@ -31,7 +31,7 @@ ____
 Then, register the extension before converting your document:
 
 ```js
-const asciidoctor = require('asciidoctor.js')()
+const asciidoctor = require('@asciidoctor/core')()
 const tweetExtension = require('asciidoctor-tweet')
 const registry = tweetExtension.register(asciidoctor.Extensions.create())
 
