@@ -1,7 +1,7 @@
 const chai = require('chai')
 const expect = chai.expect
 const asciidoctorTweet = require('../src/asciidoctor-tweet')
-const asciidoctor = require('asciidoctor.js')()
+const asciidoctor = require('@asciidoctor/core')()
 const cheerio = require('cheerio')
 
 const registry = asciidoctorTweet.register(asciidoctor.Extensions.create())

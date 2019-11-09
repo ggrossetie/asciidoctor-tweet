@@ -1,4 +1,4 @@
-const asciidoctor = require('asciidoctor.js')()
+const asciidoctor = require('@asciidoctor/core')()
 const tweetExtension = require('../src/asciidoctor-tweet.js')
 const registry = tweetExtension.register(asciidoctor.Extensions.create())
 
