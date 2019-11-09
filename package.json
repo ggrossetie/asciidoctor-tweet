@@ -24,9 +24,9 @@
   "author": "Guillaume Grossetie (https://github.com/mogztter)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mogztter/asciidoctor-color/issues"
+    "url": "https://github.com/Mogztter/asciidoctor-tweet/issues"
   },
-  "homepage": "https://github.com/Mogztter/asciidoctor-color",
+  "homepage": "https://github.com/Mogztter/asciidoctor-tweet",
   "publishConfig": {
     "access": "public"
   },
