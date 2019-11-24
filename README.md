@@ -49,4 +49,4 @@ Once you have a Twitter application, you will need to pass the consumer key and 
 
 ## Rendering
 
-![](rendering.jpeg)
+![](https://github.com/Mogztter/asciidoctor-tweet/raw/master/rendering.jpeg)
