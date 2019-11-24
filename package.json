@@ -1,6 +1,6 @@
 {
   "name": "asciidoctor-tweet",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Asciidoctor extension to add tweets in your document",
   "main": "dist/node/asciidoctor-tweet.js",
   "browser": "dist/browser/asciidoctor-tweet.js",
